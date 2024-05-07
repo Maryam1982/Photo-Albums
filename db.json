@@ -1,0 +1,121 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Maryam"
+    },
+    {
+      "id": "dc61",
+      "name": "Victoria DuBuque"
+    },
+    {
+      "id": "2ae5",
+      "name": "Silvia Roob"
+    },
+    {
+      "id": "67f2",
+      "name": "Mrs. Megan Lind MD"
+    }
+  ],
+  "albums": [
+    {
+      "id": "1",
+      "title": "Cycling",
+      "userId": 1
+    },
+    {
+      "id": "ad9e",
+      "userId": "dc61",
+      "title": "Electronic Bronze Pants"
+    },
+    {
+      "id": "c5f0",
+      "userId": "1",
+      "title": "Modern Cotton Shoes"
+    },
+    {
+      "id": "c578",
+      "userId": "2ae5",
+      "title": "Bespoke Cotton Gloves"
+    },
+    {
+      "id": "90e7",
+      "userId": "67f2",
+      "title": "Gorgeous Cotton Bike"
+    },
+    {
+      "id": "063d",
+      "userId": "1",
+      "title": "Tasty Metal Chair"
+    }
+  ],
+  "photos": [
+    {
+      "id": "1",
+      "albumId": 1,
+      "title": "Photo-1",
+      "url": ""
+    },
+    {
+      "id": "2",
+      "albumId": 1,
+      "title": "Photo-2",
+      "url": ""
+    },
+    {
+      "id": "e7af",
+      "albumId": "1",
+      "url": "https://picsum.photos/seed/vN7pv/640/480"
+    },
+    {
+      "id": "9e4a",
+      "albumId": "ad9e",
+      "url": "https://loremflickr.com/150/150?lock=4673617449189376"
+    },
+    {
+      "id": "b9b2",
+      "albumId": "ad9e",
+      "url": "https://picsum.photos/seed/iop9Uv0WB/150/150"
+    },
+    {
+      "id": "7c6d",
+      "albumId": "ad9e",
+      "url": "https://picsum.photos/seed/Vtd0Fov9WA/150/150"
+    },
+    {
+      "id": "6dd2",
+      "albumId": "ad9e",
+      "url": "https://picsum.photos/seed/lXxyayX/150/150"
+    },
+    {
+      "id": "4176",
+      "albumId": "ad9e",
+      "url": "https://loremflickr.com/150/150?lock=4253436077932544"
+    },
+    {
+      "id": "d346",
+      "albumId": "c578",
+      "url": "https://loremflickr.com/150/150?lock=4992706667347968"
+    },
+    {
+      "id": "2591",
+      "albumId": "ad9e",
+      "url": "https://loremflickr.com/150/150?lock=6760289659781120"
+    },
+    {
+      "id": "0268",
+      "albumId": "ad9e",
+      "url": "https://loremflickr.com/150/150?lock=8499448659312640"
+    },
+    {
+      "id": "7891",
+      "albumId": "ad9e",
+      "url": "https://loremflickr.com/150/150?lock=5190662349651968"
+    },
+    {
+      "id": "23c2",
+      "albumId": "ad9e",
+      "url": "https://loremflickr.com/150/150?lock=8163477034106880"
+    }
+  ]
+}
