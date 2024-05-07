@@ -1,10 +1,13 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { faker } from "@faker-js/faker";
+const baseURL = "http://localhost:3005";
+// const baseURL =
+//   "https://my-json-server.typicode.com/Maryam1982/JSON-Server-Photo-Album";
 
 const photosApi = createApi({
   reducerPath: "photos",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3005",
+    baseUrl: baseURL,
   }),
   endpoints(builder) {
     return {

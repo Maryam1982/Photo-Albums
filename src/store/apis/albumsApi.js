@@ -1,6 +1,10 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { faker } from "@faker-js/faker";
 
+const baseURL = "http://localhost:3005";
+// const baseURL =
+//   "https://my-json-server.typicode.com/Maryam1982/JSON-Server-Photo-Album";
+
 //FOR DEVELOPMENT
 const pause = (delay) => {
   return new Promise((resolve) => {
@@ -11,7 +15,7 @@ const pause = (delay) => {
 const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3005",
+    baseUrl: baseURL,
     fetchFn: async (...args) => {
       await pause(1000);
       return fetch(...args);
