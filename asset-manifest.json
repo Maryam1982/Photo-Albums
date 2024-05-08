@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Photo-Albums/static/css/main.ee343f93.css",
-    "main.js": "/Photo-Albums/static/js/main.ee13a087.js",
+    "main.js": "/Photo-Albums/static/js/main.63d1972a.js",
     "index.html": "/Photo-Albums/index.html",
     "main.ee343f93.css.map": "/Photo-Albums/static/css/main.ee343f93.css.map",
-    "main.ee13a087.js.map": "/Photo-Albums/static/js/main.ee13a087.js.map"
+    "main.63d1972a.js.map": "/Photo-Albums/static/js/main.63d1972a.js.map"
   },
   "entrypoints": [
     "static/css/main.ee343f93.css",
-    "static/js/main.ee13a087.js"
+    "static/js/main.63d1972a.js"
   ]
 }
