@@ -5,8 +5,8 @@ import axios from "axios";
 const baseURL = "https://json-server-photo-albums.onrender.com";
 
 const deleteUser = createAsyncThunk("users/delete", async (user) => {
-  const response = await axios.delete(`${baseURL}/users/${user.id}`);
-  return response.data;
+  await axios.delete(`${baseURL}/users/${user.id}`);
+  return user;
 });
 
 export { deleteUser };
