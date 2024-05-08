@@ -1,9 +1,8 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { faker } from "@faker-js/faker";
 
-const baseURL = "http://localhost:3005";
-// const baseURL =
-//   "https://my-json-server.typicode.com/Maryam1982/JSON-Server-Photo-Album";
+// const baseURL = "http://localhost:3005";
+const baseURL = "https://json-server-photo-albums.onrender.com";
 
 //FOR DEVELOPMENT
 const pause = (delay) => {
