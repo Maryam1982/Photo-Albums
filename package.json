@@ -1,5 +1,6 @@
 {
   "name": "media",
+  "homepage": "https://Maryam1982.github.io/Photo-Albums",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,11 +20,14 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "react-scripts": "5.0.1",
-    "@babel/plugin-proposal-private-property-in-object": "7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+    "gh-pages": "^6.1.1",
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
